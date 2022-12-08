@@ -22,12 +22,15 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 
 ## Code exmaple
 
+{
+
 class Vector { //шаблон кода для создания объектов, который устанавливает в них начальные значения
 \_x;
 \_y;
 constructor(x, y) { //инициализировать объект
 this.\_x = x;
 this.\_y = y;
+
 }
 
     get x() { // для чтения
@@ -83,7 +86,7 @@ console.log(filtered.map(vector => vector.toString()));
 const min = arr.reduce((min, vector) => vector.x + vector.y < min ? vector.x + vector.y : min, Infinity);
 const max = arr.reduce((max, vector) => vector.x + vector.y > max ? vector.x + vector.y : max, -Infinity);
 console.log(min, max);
-``
+}
 
 ## Experience
 
