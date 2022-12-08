@@ -1,7 +1,5 @@
 # Zaytsev Nikita
 
-[!me](/Desktop/zalov/img/nikita.jpg)
-
 ## Contacts
 
 - Location:Minsk,Belarus
