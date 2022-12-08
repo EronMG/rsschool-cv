@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(90deg, rgb(79, 75, 152) 0%, rgb(40, 40, 122) 100%, rgba(0, 212, 255, 1) 100%);
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+.card {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    background: linear-gradient(90deg, rgb(205, 206, 145) 0%, rgb(205, 256, 145) 100%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 50px;
+    box-shadow: 0 15px 100px rgb(205, 206, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .information {
+    position: relative;
+    color: rgb(11, 18, 24);
+}
+
+.card .name {
+    position: relative;
+    font-size: 200%;
+}
+
+.card .inf {
+    font-size: 200%;
+}
+
+.card .list {
+    font-size: 150%;
+}
