@@ -61,3 +61,111 @@ footer {
     left: 25%;
     top: 10%;
 }
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    border-bottom: 3px solid darkcyan;
+    color: rgb(109, 88, 88);
+}
+
+.information {
+    position: absolute;
+    left: 47.5%;
+    font-size: 180%;
+    top: 24%;
+    color: grey;
+}
+
+.contacts {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 8%;
+    top: 30%;
+    border-bottom: 3px solid grey;
+}
+
+.summary {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 35%;
+    top: 30%;
+    border-bottom: 3px solid grey;
+}
+
+.skills {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 63%;
+    top: 30%;
+    border-bottom: 3px solid grey;
+}
+
+.code {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 35%;
+    top: 57%;
+    border-bottom: 3px solid grey;
+}
+
+.courses {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 7%;
+    top: 57%;
+    border-bottom: 3px solid grey;
+}
+
+.education {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    font-size: 150%;
+    left: 63%;
+    top: 57%;
+    border-bottom: 3px solid grey;
+}
+
+.english {
+    background-color: #fff;
+    position: absolute;
+    width: 25%;
+    height: 10%;
+    left: 35%;
+    top: 83%;
+    border-bottom: 3px solid grey;
+    font-size: 115%;
+}
+
+.year {
+    position: absolute;
+    left: 7%;
+    font-size: 135%;
+    color: white;
+}
+
+.rsschool {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    left: 84%;
+}
