@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    background-color: darkcyan;
+    width: 100%;
+    height: 6%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    width: 50%;
+}
+
+footer {
+    position: fixed;
+    background-color: darkcyan;
+    width: 100%;
+    height: 6%;
+    bottom: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 3000px;
+}
+
+.menu {
+    position: fixed;
+    height: 6%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* Header  block*/
+    align-items: center;
+    gap: 20px;
+    font-size: 150%;
+}
+
+.al {
+    color: white;
+    text-decoration: none;
+    /* Header links  */
+    padding-right: 70px;
+}
+
+.mainblock {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+#adres {
+    width: 50px;
+    height: 50px;
+}
+
+#contacts-links {
+    list-style-type: none;
+    color: black;
+}
+
+#telegram {
+    width: 50px;
+    height: 50px;
+}
+
+#github {
+    width: 50px;
+    height: 50px;
+}
+
+#email {
+    width: 50px;
+    height: 50px;
+}
+
+#emails {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.name-information {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 12.5%;
+}
+
+.name-information1 {
+    font-size: 200%;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(55, 65, 75);
+}
+
+#Name {
+    font-size: 90%;
+}
+
+.contacts {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#contact {
+    font-size: 250%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#contacts-links {
+    font-size: 150%;
+    text-align: start;
+}
+
+#summary-name {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+    padding-bottom: 50px;
+}
+
+#summary-information {
+    font-size: 165%;
+}
+
+.summary {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+.skills {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#skills-name {
+    font-size: 250%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+    padding-bottom: 50px;
+}
+
+#html {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#skills-links {
+    font-size: 175%;
+}
+
+.courses {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#courses-name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#link4 {
+    font-size: 175%;
+}
+
+#courses-links {
+    font-size: 175%;
+}
+
+.code {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#code-name {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#code-try {
+    font-size: 165%;
+}
+
+.education {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#education-name {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#education-inf {
+    font-size: 175%;
+}
+
+.english {
+    padding: 50px;
+    border-bottom: 5px solid rgb(108, 80, 80);
+}
+
+#english-name {
+    text-align: center;
+    font-size: 250%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+}
+
+#english-information {
+    font-size: 175%;
+}
+
+#htmlacademy {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#freecodecamp {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#hexlet {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#telegrams {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#githubs {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#css {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#git {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#js {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#github1 {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+#blender {
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 100px;
+    padding-left: 100px;
+    align-items: center;
+}
+
+#rsschool {
+    width: 70px;
+    height: 70px;
+}
+
+#year {
+    font-size: 200%;
+    color: white;
+}
+
+#EronMG {
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width:800px) {
+    .menu {
+        position: fixed;
+        height: 6%;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        /* Header  block*/
+        align-items: center;
+        gap: 5px;
+        font-size: 120%;
+    }
+    .al {
+        color: white;
+        text-decoration: none;
+        /* Header links  */
+    }
+    .mainblock {
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    #photo {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 50px;
+    }
+    #emails {
+        text-decoration: none;
+        color: darkcyan;
+    }
+    .name-information {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        height: 12.5%;
+    }
+    .name-information1 {
+        font-size: 140%;
+        text-align: center;
+        padding: 50px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(55, 65, 75);
+    }
+    #Name {
+        font-size: 90%;
+    }
+    .contacts {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #contact {
+        font-size: 200%;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+    }
+    #contacts-links {
+        font-size: 120%;
+        text-align: start;
+    }
+    #summary-name {
+        font-size: 200%;
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+        padding-bottom: 50px;
+    }
+    #summary-information {
+        font-size: 135%;
+    }
+    .summary {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    .skills {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #skills-name {
+        font-size: 200%;
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+        padding-bottom: 50px;
+    }
+    #html {
+        text-decoration: none;
+        color: darkcyan;
+    }
+    #skills-links {
+        font-size: 135%;
+    }
+    .courses {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #courses-name {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+        text-align: center;
+        font-size: 200%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #courses-links {
+        font-size: 135%;
+    }
+    .code {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #code-name {
+        text-align: center;
+        font-size: 200%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+    }
+    #code-try {
+        font-size: 135%;
+    }
+    .education {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #education-name {
+        text-align: center;
+        font-size: 190%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+    }
+    #education-inf {
+        font-size: 145%;
+    }
+    .english {
+        padding: 50px;
+        border-bottom: 5px solid rgb(108, 80, 80);
+    }
+    #english-name {
+        text-align: center;
+        font-size: 200%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkcyan;
+    }
+    #english-information {
+        font-size: 135%;
+    }
+}
