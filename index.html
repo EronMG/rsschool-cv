@@ -5,86 +5,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>cv#3</title>
 </head>
 
 <body>
     <header>
-        <nav class="links">
-            <a class="al" href="#">Contacts</a>
-            <a class="al" href="#">Summary</a>
-            <a class="al" href="#">Skills</a>
-            <a class="al" href="#">Code</a>
-            <a class="al" href="#">Education</a>
-            <a class="al" href="#">English</a>
+        <nav class="menu">
+            <a class="al" href="#contacts1">Contacts</a>
+            <a class="al" href="#summary1">Summary</a>
+            <a class="al" href="#skills1">Skills</a>
+            <a class="al" href="#code1">Code</a>
+            <a class="al" href="#education1">Education</a>
+            <a class="al" href="#english1">English</a>
         </nav>
     </header>
     <main>
-        <div class="img">
-            <img src="https://i.ibb.co/pysq38c/nikita.jpg" alt="nikita" width="200px" height="200px">
-        </div>
-        <div class="name">
-            <h1>Z A Y T S E V &nbsp;&nbsp;&nbsp; N I K I T A</h1>
-        </div>
-        <div class="information">
-            BEGINNER FRONT-END DEVELOPER
-        </div>
-        <div class="contacts">
-            <h2>C O N T A C T S</h2>
-            <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/2x/external-adress-data-protection-flatart-icons-outline-flatarticons.png" alt="adress" width="25px" height="25px"> Minsk, Belarus<br>
-            <img src="https://img.icons8.com/ios/2x/apple-mail.png" alt="email" width="25px" height="25px"> Email: <a class="aa" href="#">eronmcgonagal@gmail.com</a><br>
-            <img src="https://img.icons8.com/ios-glyphs/2x/github.png" alt="github" width="25px" height="25px"> GitHub: <a class="aa" href="https://github.com/EronMG">EronMG</a><br>
-            <img src="https://img.icons8.com/ios-glyphs/2x/telegram-app.png" alt="telegram" width="25px" height="25px"> Telegram <a class="aa" href="#">@eronmcgonagal</a><br>
-        </div>
-        <div class="summary">
-            <h2>S U M M A R Y</h2>
-            <p>I like programming. This is a really interesting area of ​​work. There are such variants of language development as: C ++, Python, JavaScript. My goal is to become a future Front-End developer. I will develop my own web application and further
-                study Front-End</p>
-        </div>
-        <div class="skills">
-            <h2>S K I L L S</h2>
-            <ul>
-                <li>Web-Development: <a class="aa" href="#">HTML5, CSS3, JavaScript</a></li>
-                <li>Version control: <a class="aa" href="#">GIT, GitHub</a></li>
-                <li>Graphic: <a class="aa" href="#">Blender</a></li>
-            </ul>
-        </div>
-        <div class="code">
-            <h2>C O D E</h2>
-            <p>const factorial = function fac(n)
-                <br>{
-                <br> return n
-                < 2 ? 1 : n * fac(n - 1); <br> }
+        <div class="mainblock">
+
+            <div class="name-information">
+                <img src="https://i.ibb.co/pysq38c/nikita.jpg" alt="nikita" id="photo">
+
+            </div>
+            <div class="name-information1">
+                <h1 id="Name">Z A Y T S E V &nbsp; &nbsp; &nbsp; N I K I T A</h1>
+                <p id="information">Beginner Front-End Developer</p>
+            </div>
+            <div class="contacts" id="contacts1">
+                <h2 id="contact">C O N T A C T S</h2>
+
+                <ul id="contacts-links">
+
+                    <li>
+                        <img id="adres" src="https://img.icons8.com/ios/2x/apple-mail.png" alt="adres"> Minsk, Belarus
+                    </li>
+                    <li>
+                        <img id="email" src="https://img.icons8.com/ios/2x/apple-mail.png" alt="email"> Email: <a id="emails" href="https://www.google.com/intl/ru/gmail/about/">eronmcgonagal@gmail.com</a>
+                    </li>
+                    <li>
+                        <img id="telegram" src="https://img.icons8.com/ios/2x/telegram-app.png" alt="telegram"> Telegram: <a id="telegrams" href="https://web.telegram.org">@eronmcgonagal</a>
+                    </li>
+                    <li>
+                        <img id="github" src="https://img.icons8.com/ios-glyphs/2x/github.png" alt="github"> GitHub: <a id="githubs" href="https://github.com/EronMG">EronMG</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="summary" id="summary1">
+                <h2 id="summary-name">S U M M A R Y</h2>
+                <p id="summary-information">I like programming. This is a really interesting area of ​​work. There are such variants of language development as: C ++, Python, JavaScript. My goal is to become a future Front-End developer. I will develop my own web application and
+                    further study Front-End</p>
+            </div>
+            <div class="skills" id="skills1">
+                <h2 id="skills-name">S K I L L S</h2>
+
+                <ul id="skills-links">
+
+                    <li>Web-Development: <a id="html" href="https://ru.wikipedia.org/wiki/HTML">HTML</a> <a id="css" href="https://ru.wikipedia.org/wiki/CSS">CSS</a> <a id="js" href="https://ru.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+                    <li>Version control: <a id="github1" href="https://github.com/">GitHub</a> <a id="git" href="https://git-scm.com/">Git</a></li>
+                    <li>Graphic: <a id="blender" href="https://www.blender.org/">Blender</a></li>
+
+                </ul>
+
+            </div>
+            <div class="courses " id="courses1">
+                <h2 id="courses-name">C O U R S E S</h2>
+
+                <ul id="courses-links">
+                    <li>Hexlet - <a id="hexlet" href="https://ru.hexlet.io/">JavaScript for beginner</a></li>
+                    <li>HtmlAcademy - <a id="htmlacademy" href="https://htmlacademy.ru/courses/297/run/1">HTML, CSS</a></li>
+                    <li>FreeCodeCamp - <a id="freecodecamp" href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/#es6">ES6(javascript)</a></li>
+                </ul>
+
+            </div>
+            <div class="code" id="code1">
+                <h2 id="code-name">C O D E </h2>
+                <p id="code-try">const factorial = function fac(n)
+                    <br>{
+                    <br>return n 2 ? 1 : n * fac(n - 1); <br> }
 
                     <br>console.log(factorial(3))
-            </p>
-        </div>
-        <div class="courses">
-            <h2>C O U R S E S</h2>
-            <ul>
-                <li>Hexlet <a class="aa" href="#">- JavaScript for beginner</a></li>
-                <li>HTML Academy <a class="aa" href="#">- HTML, CSS</a></li>
-                <li>FreeCodeCamp <a class="aa" href="#">- ES6(JavaScript)</a>
-                </li>
-            </ul>
-        </div>
-        <div class="education">
-            <h2>E D U C A T I O N</h2>
-            <p>Minsk University "MITSO"</p>
-        </div>
-        <div class="english">
-            <h2>E N G L I S H</h2>
-            <p>B1-Pre-Intermediate</p>
+                </p>
+            </div>
+            <div class="education" id="education1">
+                <h2 id="education-name">E D U C A T I O N</h2>
+                <p id="education-inf">Minsk University "MITSO"</p>
+            </div>
+            <div class="english" id="english1">
+                <h2 id="english-name">E N G L I S H</h2>
+                <p id="english-information">B1-Pre-Intermediate</p>
+            </div>
         </div>
     </main>
     <footer>
-        <div class="year">
-            <p>@ 2022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class="al" href="https://github.com/EronMG">EronMG</a></p>
-
-        </div>
-        <div class="rsschool">
-            <a href="https://app.rs.school/"><img src="https://rollingscopes.com/images/logo_rs_text.svg" alt="rsschool" width="75px" height="75px"></a>
+        <div class="footer">
+            <p id="year">@2022 <a href="https://github.com/EronMG" id="EronMG">EronMG</a></p>
+            <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/partners/logo-rs.svg" alt="rsschool" id="rsschool"></a>
         </div>
     </footer>
 </body>
