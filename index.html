@@ -5,26 +5,180 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>CV Uladzimir Hrydzin</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/hrydzin.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,100&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header class="header">
-        <div class="header-main-block">
-            <div class="header-main-block-border">
-                <img src="img/2023-03-09 18.49.23.jpg" alt="nikita" width="450px" height="450px">
-            </div>
-            <div class="header-main-block-title">
-                <div class="header-main-block-title-h">
-                    <h1 class="header-h1-1">N I K I T A</h1>
-                    <h1 class="header-h1">Z A Y T S E V</h1>
-                </div>
-                <h2>FROT-END DEVELOPER</h2>
-                <p>I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.</p>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <figure class="avatar">
+
+                </figure>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#english" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <!--  A S I D E -->
+            <aside>
+                <div class="aside-container">
+                    <section class="section" id="contacts">
+                        <h2 class="section-title">Contacts</h2>
+                        <ul class="section-item">
+                            <li class="contact-item">
+                                <p> Minsk, Belarus</p>
+                            </li>
+                            <li class="contact-item">
+                                <p><a href="tel:+375447258597"> +375(29)8353619</a></p>
+                            </li>
+                            <li class="contact-item"> <a href="mailto:hrydzin@gmail.com">eronmcgonagal@gmail.com</a></li>
+                            <li class="contact-item">
+                                <p>@eronmcgonagal</p>
+                            </li>
+                            <li class="contact-item">
+                                <p> <a href="https://github.com/uladek">EronMG</a></p>
+                            </li>
+
+                        </ul>
+                    </section>
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS Basic</li>
+                            <li>JS Basic</li>
+                            <li>GIT Basic</li>
+                            <li>Adobe Photoshop </li>
+                            <li>Adobe Lightroom</li>
+                        </ul>
+                    </section>
+                    <section class="section" id="education">
+                        <h2 class="section-title">Education</h2>
+                        <p>Belarusian State Economic University, Bachelor of Finances and credit</p>
+                    </section>
+                    <section class="section" id="english">
+                        <h2 class="section-title">Languages</h2>
+                        <ul>
+                            <li>Belarusian - native speaker</li>
+                            <li>Russian - native speaker</li>
+                            <li>English - A2 - A2+ In progress</li>
+                        </ul>
+                    </section>
+                </div>
+            </aside>
+            <div class="main-container">
+                <section class="profile">
+                    <h1>Nikita Zaytsev</h1>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p class="green">
+                        I am a good photographer. I am a very active and friendly person. I like photo, sport, code and want to become a good front-end developer. As I like photography, I chose front-end.
+                    </p>
+                </section>
+                <section class="section" id="code">
+                    <h2 class="section-title">Code Examples</h2>
+                    <pre>
+                function getTimeOfDay() {
+                    const date = new Date();
+                    const hours = date.getHours();
+                    if (hours &gt;= 0 &amp;&amp; hours &lt; 6) {
+                        return ("night");
+                    }
+                    else if (hours &gt;= 6 &amp;&amp; hours &lt; 12) {
+                        return ("morning");
+                    }
+                    else if (hours &gt;= 12 &amp;&amp; hours &lt; 18) {
+                        return ("afternoon");
+                    }
+                    else if (hours &gt;= 18 &amp;&amp; hours &lt; 24) {
+                        return ("evening");
+                    }
+                }
+                function getTimeOfDay();
+            </pre>
+                </section>
+                <section class="section" id="projects">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="projects-wrapper">
+                        <div class="cv"><a class="border-cv" href="https://uladek.github.io/rsschool-cv/">CV</a></div>
+                        <div class="cv"><a class="border-cv" href="https://rolling-scopes-school.github.io/uladek-JSFEPRESCHOOL2022Q2/travel/">Travel</a></div>
+                    </div>
+                </section>
+                <section class="section" id="courses">
+                    <h2 class="section-title">Additional education</h2>
+                    <ul class="green">
+                        <li>JavaScript/Front-end. Stage 0. In progress</li>
+                        <li>Workshop on conflict photography by Christopher Morris (Minsk, Belarus)</li>
+                        <li>Long-term course on documentary photography by Andrei Polikanov Tatyana Plotnikova and Yuri Kozyrev(Minsk,Belarus)</li>
+                        <li>Master class of Sergey Maximishin 2008-2009</li>
+                        <li>Course of press photography '5W', Mnsk</li>
+                        <li>Belarusian Collegium, photography</li>
+                    </ul>
+                </section>
+                <section class="section" id="work">
+                    <h2 class="section-title">Work Experience</h2>
+                    <ul class="green">
+                        <li>2008-2022. Freelance Photographer. Worked with News Agency Reuters, The Associeted Press, Agence France-Presse. European Pressphoto Agency, TUT.BY-Media. Have publications in magazine Russian Newsweek, newspapers Kommersant, The
+                            Washington Post, Gurdian, Der Spiegel.</li>
+                        <li>June 2017- Aug 2020. News photographer Belarusian Service Radio Free Europe</li>
+                        <li>Dec 2004 - March 2006. Branch №520 of Belarusbank, department working with charge cards.</li>
+                        <li>May 2003 - Dec 2004. Branch №614 of Belarusbank, department working with individual persons</li>
+                    </ul>
+                </section>
+                <section class="section" id="advances">
+                    <h2 class="section-title">Personal advances</h2>
+                    <ul class="green">
+                        <li>2021<br>Long list of World Press Photo</li>
+                        <li>2015
+                            <ul>
+                                <li>1st prize at t Portrait (singles) category</li>
+                                <li>1st prize at Arts and Entertainment (singles) category</li>
+                                <li>1st prize at Sports (singles) category</li>
+                                <li>2d place at Sports (Series) category</li>
+                                <li>"Prafota" award, finalist in Documentary category</li>
+                            </ul>
+                        </li>
+                        <li>2012<br>3rd place in Belarus Press Photo contest in ' News' category.</li>
+                        <li>2011<br>3rd place in Belarus Press Photo contest in 'People in news' category.</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <p class="copyright">
+                    <span>©  2022</span>
+                    <a href="https://github.com/EronMG"><img class="mail" src="./src/github.svg" width="25" height="25" alt="GitHub">EronMG</a>
+                </p>
+                <div class="github">
+                    <a href="https://rs.school/js-stage0/">
+                        <img src="./src/rs_school_js.svg" alt="rs-school-logo" class="rss">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
